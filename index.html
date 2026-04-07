@@ -1,11 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>4zap</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1120;
+      color: #ffffff;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #1e293b;
+      color: #38bdf8;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 52px;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+      color: #cbd5e1;
+      max-width: 760px;
+      margin: 0 auto 30px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      background: #22c55e;
+      color: #0b1120;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>4zap</h1>
-  <p>Site no ar 🚀</p>
+  <section class="hero">
+    <div class="container">
+      <div class="tag">Omnichannel + CRM + IA preditiva</div>
+      <h1>Resolva interações antes mesmo delas acontecerem.</h1>
+      <p>
+        Plataforma omnichannel com CRM e IA preditiva para antecipar demandas,
+        automatizar o atendimento e aumentar suas vendas.
+      </p>
+      <a href="#" class="btn">Conheça o 4zap</a>
+    </div>
+  </section>
 </body>
 </html>
